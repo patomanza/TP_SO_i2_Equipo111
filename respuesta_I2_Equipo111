@@ -1,14 +1,17 @@
 Juan Manuel Bottaro
 Patricio Manzanares
 
-a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK? Configurandolo como un repositorio remoto,
+luego actualizando la rama con los cambios del repo forkeado y para finalizar actualizandolo con un push.
 
-b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA? Si, puede hacerlo.
 
-c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA? Si, puede hacerlo.
 
 d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
-el fork?
+el fork? No, no se pierde ningun dato.
 
 e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
 orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos.
+
+
