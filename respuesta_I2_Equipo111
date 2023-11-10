@@ -2,9 +2,9 @@ Juan Manuel Bottaro
 Patricio Manzanares
 
 a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK? Configurandolo como un repositorio remoto,
-luego actualizando la rama con los cambios del repo forkeado y para finalizar actualizandolo con un push.
+luego actualizando la rama con los cambios del repo forkeado desde Github o con un pull y para finalizar actualizandolo con un push.
 
-b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA? Si, puede hacerlo.
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA? Si, puede hacerlo con un pull.
 
 c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA? Si, puede hacerlo.
 
@@ -13,5 +13,27 @@ el fork? No, no se pierde ningun dato.
 
 e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
 orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos.
+Manzanares Patricio
+1.
+git init
+git add fork.txt
 
+Bottaro Juan Manuel
+2 y 3-
+git init 
+git clone (link del repositorio forkeado)
+(se realizan los cambios necesarios dentro de los archivos)
+git add .
+git branch -u main 
+git remote add origin (link del repositorio forkeado)
+git push -u origin main 
+
+Manzanares Patricio
+4.
+git init 
+git clone (link del repositorio forkeado)
+git branch -u main 
+git remote add origin (link del repositorio forkeado)
+git pull origin main
+git push -u origin main 
 
